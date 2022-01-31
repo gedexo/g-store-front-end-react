@@ -370,12 +370,28 @@ code {
 /*Styles For Product-Card END*/
 
 .productCard{
+  padding: 10px;
+  border: 1px solid rgb(238, 238, 238);
   border-radius: 10px;
-  background-color: #f5f5f5;
-  padding: 8px;
   
 }
 .imageProduct{
   width: 100%;
-  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.offerPrice{
+  color: red;
+}
+.strikePrice{
+  color: rgb(77, 73, 73);
+}
+.prices{
+  height: 22px;
+}
+.offersection{
+  margin-left: px;
+}
+
+.productHeading{
+  font-weight: bold;
 }

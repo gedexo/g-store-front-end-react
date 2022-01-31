@@ -7,19 +7,23 @@ import ProductCard from './product-card/product-card'
 
 function BookList(){
   
-  return (<>
-  
-  <div className='container'>
-    <div className='row'>
-    <ProductCard />
-    <ProductCard />
-    <ProductCard />
-    <ProductCard />
-    <ProductCard />
-    </div>
-    
-    </div>
-  
+  return (
+    <>
+      <div className="container">
+        <div className="row">
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
+      </div>
     </>
   );
   
