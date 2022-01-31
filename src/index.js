@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './bootstrap.css';
 import reportWebVitals from './reportWebVitals';
+import ProductCard from './product-card/product-card'
 
+function BookList(){
+  
+  return (<>
+  
+  <div className='container'>
+    <div className='row'>
+    <ProductCard />
+    <ProductCard />
+    <ProductCard />
+    <ProductCard />
+    <ProductCard />
+    </div>
+    
+    </div>
+  
+    </>
+  );
+  
+  
+}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    </React.StrictMode>,
+  <BookList />,
   document.getElementById('root')
 );
 
