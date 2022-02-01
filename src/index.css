@@ -400,8 +400,12 @@ code {
 .categoryImage{
   border-radius: 50%;
   width: 100%;
-
+  border: 1px solid rgb(230, 225, 225);
 }
+.categories{
+  padding: 5px;
+}
+
 .categoryBanner{
   padding: 8px;
   border: 1px solid rgb(218, 217, 215);

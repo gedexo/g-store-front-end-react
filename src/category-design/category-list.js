@@ -25,13 +25,14 @@ const CategoryList = () => {
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
-          items: 1
+          items: 5
         }
       };
     return (<>
         <div className='categoryBanner'>
             <div className='row'>
                 <div className='col-lg-12 col-12 col-sm-12'>
+                    <div className='row'>
                     <Carousel responsive={responsive}
                      swipeable={true}
                      draggable={true}
@@ -41,56 +42,53 @@ const CategoryList = () => {
                      removeArrowOnDeviceType={["tablet", "mobile"]}
                     >
                         
-                            <div className='row'>
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
 
 
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
 
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
                                 
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
 
-                            </div>
-                            <div className='row'>
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
 
 
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
 
-                                <div className='col-lg-3 col-3 col-sm-3'>
+                                <div>
                                     <div className='categories'>
                                         <SingleCategory />
                                     </div>
                                 </div>
 
-                            </div>
                         
                     </Carousel>
+                            </div>
                 </div>
 
             </div>
