@@ -3,25 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './bootstrap.css';
 import reportWebVitals from './reportWebVitals';
-import ProductCard from './product-card/product-card'
+import CategoryArea from './category-design/category-list';
+import ProductsCard from './product-card/product-card';
+import NavigationBar from './navigation-bar-and-bnner/navigation-bar';
 
-function BookList(){
+function Testing(){
   
   return (
     <>
       <div className="container">
+      <div className="row">
+          <NavigationBar />
+        </div>
         <div className="row">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <CategoryArea />
+        </div>
+        <div className="row productContainer">
+          <ProductsCard />
+          <ProductsCard />
+          <ProductsCard />
+          <ProductsCard />
+          <ProductsCard />
+          <ProductsCard />
         </div>
       </div>
     </>
@@ -30,7 +33,7 @@ function BookList(){
   
 }
 ReactDOM.render(
-  <BookList />,
+  <Testing />,
   document.getElementById('root')
 );
 

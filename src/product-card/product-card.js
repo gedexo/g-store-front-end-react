@@ -20,17 +20,24 @@ const ProductCard = () => {
             <div className="col-lg-4 col-sm-12 col-lg-2">
               <img
                 className="imageProduct"
-                src="https://dummyimage.com/170x170.gif?text=product"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEs_IsixJI4bTnhCwlcWV_K_3eT-pMGg6KWA&usqp=CAU"
                 alt="My Product"
               ></img>
+              {/* */}
             </div>
             <div className="col-lg-7 col-sm-12">
-              <h6 className="productHeading">Product Name Name</h6>
+              <h6 className="productHeading">Product Name</h6>
               <div className="row">
-                <div className="col-lg-12 col-12 col-sm-12">
+                <div className="col-lg-8 col-8 col-sm-8">
                   <div className="prices">
                     <p>$32.00</p>
                   </div>
+                </div>
+                <div className="col-lg-4 col-3 col-sm-3">
+                  <div>
+                    <i onClick={()=>{alert("Product Carted")}} className="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </div>
+
                 </div>
                 <div className="col-lg-4 col-4 col-sm-4">
                   <div className="prices offersection">
@@ -44,6 +51,7 @@ const ProductCard = () => {
                     <p className="offerPrice">20%</p>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
