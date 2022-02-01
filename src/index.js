@@ -19,10 +19,16 @@ function Testing(){
           <CategoryArea />
         </div>
         <div className="row productContainer">
+          <ProductsCard data={{"ss":"as"}}/>
           <ProductsCard />
           <ProductsCard />
           <ProductsCard />
-          <ProductsCard />
+
+
+
+
+
+          
           <ProductsCard />
           <ProductsCard />
         </div>

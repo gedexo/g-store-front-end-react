@@ -13,15 +13,15 @@ const CategoryList = () => {
         superLargeDesktop: {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
-          items: 5
+          items: 15
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 12
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 2
+          items: 7
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
@@ -107,7 +107,7 @@ const SingleCategory = () => {
                     ></img>
                 </div>
                 <div className='col-12 col-lg-12 col-sm-12 text-center'>
-                    <p className='categoryTitle'>Mens</p>
+                    <p className='categoryTitle'>Saree</p>
 
                 </div>
             </div>
